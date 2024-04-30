@@ -1,4 +1,5 @@
 import React, {CSSProperties} from 'react';
+import './skeleton.styles.css'
 
 interface SkeletonProps {
     type?: 'rectangle' | 'square' | 'circle',

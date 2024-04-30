@@ -1,0 +1,14 @@
+.assignment-default-config {
+    height: 100vh;
+    width: 100vw;
+    padding: 30px;
+
+    border: 40px solid #e4e5eb;
+    .image {
+        width: 60%;
+        height: 50%;
+    }
+    .description-about-image {
+        margin-top: 20px;
+    }
+}

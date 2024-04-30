@@ -1,0 +1,22 @@
+.card-skeleton {
+    /* width: 300px; */
+    padding: 20px;
+
+    border: 1px solid #e4e5eb;
+    border-radius: 5px;
+    .top-row {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        .card-primary-details {
+            flex-grow: 1;
+
+            max-width: 30%;
+        }
+    }
+
+    .body {
+        margin-top: 30px;
+    }
+}
