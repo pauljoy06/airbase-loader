@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import { AssignmentDefaultConfig } from './components';
+import { AssignmentDefaultConfig, CardsConfig, TableConfig } from './components';
 
 function App() {
   return (
     <div className="App">
         <AssignmentDefaultConfig />
+        <CardsConfig />
+        <TableConfig />
     </div>
   );
 }

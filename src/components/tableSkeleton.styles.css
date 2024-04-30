@@ -1,0 +1,16 @@
+.table-skeleton {
+    display: flex;
+    gap: 20px;
+
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+
+    .table-column-skeleton {
+        flex-grow: 1;
+        .rows > * {
+            margin-top: 30px;
+        }
+    }
+}
+
