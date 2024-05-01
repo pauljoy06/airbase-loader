@@ -8,8 +8,16 @@ import CardSkeletonGroup from './cardSkeletonGroup';
 
 import './index.style.css'
 
+/*
+* This component serves as the default configuration for the assignment.
+* It defines a simple structure that displays skeletons for an image and its description
+* until the content is fully loaded.
+*/
 const AssignmentDefaultConfig = (): JSX.Element => {
-    const [loaded] = useState<boolean>(false);
+    // State 'loaded' is used to manage the visibility of skeleton screens. Initially set to 'false' 
+    // to show the skeleton while the content is not yet loaded. The aim was to
+    // keep the logic as simple as possible.
+    const [loaded] = useState<boolean>(false); 
 
     return <div className='assignment-default-config'>
         <div className='image'>
@@ -21,7 +29,9 @@ const AssignmentDefaultConfig = (): JSX.Element => {
     </div>
 }
 
+// Component for displaying a group of card skeletons.
 const CardsConfig = (): JSX.Element => {
+    // State 'loaded' controls the display of card skeletons.
     const [loaded] = useState<boolean>(false);
 
     return <div className='cards-config'>
@@ -29,7 +39,9 @@ const CardsConfig = (): JSX.Element => {
     </div>
 } 
 
+// Component for displaying a table skeleton.
 const TableConfig = (): JSX.Element => {
+    // State 'loaded' controls the display of the table skeleton.
     const [loaded] = useState<boolean>(false);
 
     return <div className='table-config'>
