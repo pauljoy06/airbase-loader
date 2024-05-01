@@ -1,6 +1,6 @@
 # Airbase Loader
 
-Welcome to the Airbase Loader, a simple and efficient React-based application setup using [Create React App](https://github. This project leverages TypeScript to offer robust typing for better code quality and maintainability.
+Welcome to the Airbase Loader, a simple and efficient React-based application setup using [Create React App](https://github.com/facebook/create-react-app). This project leverages TypeScript to offer robust typing for better code quality and maintainability.
 
 ## Available Scripts
 
